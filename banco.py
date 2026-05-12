@@ -109,7 +109,7 @@ elif st.session_state.pagina == "cadastro":
 usuario = st.session_state.usuario_logado
 
 if usuario is None:
-    st.warning("Você precisa fazer login primeiro.")
+    
     st.stop()
 
 saldo = usuarios[usuario]["saldo"]
